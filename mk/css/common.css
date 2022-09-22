@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+*{box-sizing:border-box; margin: 0;}
+ul,ol,li {list-style:none; margin: 0; padding: 0;}
+a {text-decoration:none;}
+
+#wrap {width:100%; margin:0 auto;}
+header {width: 1185px; height: 173px; margin: 0 auto;}
+
+/*로그인*/
+#login {width:250px; height:30px; float:right; padding: 0 0 0 50px;}
+#login > ul {font-size:12px;}
+#login > ul > li {float: left; padding:5px; }
+#login > ul > li > a { text-decoration: none; color:black; }
+#login > ul > .sign > a { text-decoration: none; color:purple; }
+#login > ul > .slash { color: #cbcbc7;}
+
+/*로고*/
+#logo {width:125px; height:80px; float: left; margin:30px 0 0 550px; }
+#logo > a > img {width: 100%; height: 100%;}	
+
+/*네비게이션*/
+nav { width: 680px; height: 40px; float: left; margin: 10px 0 0 0; }
+#menu {width:680px; }
+#menu > li { float:left; width:19%; line-height:40px;  text-align:center; }
+#menu > li > a {color: #000; font-weight: bold;}
+#menu > li > a:hover {color:purple;}
+#menu > .here > a {color: purple;}
+
+.sub {border: 1px solid #e6e6e4; width: 190px; display: none; margin-top: 10px; }
+.sub > li {background-color: #fff; position:relative; text-align: left; padding-left: 10px; font-size: 15px; z-index:3;}
+.sub > li:hover {background-color:#f2f0f3;}
+.sub > li > a {color:#000;}
+
+.mini_sub {background-color:#f2f0f3; border: 1px solid #e6e6e4; position:absolute; top:0; left:188px; width:190px; display: none;} 
+.mini_sub > li {padding-left: 10px; font-size: 15px;}
+.mini_sub > li > a {color: #000;}
+.mini_sub > li > a:hover {color: purple;}
+
+
+/*검색창*/
+#search {width: 270px; height: 40px; float: left; margin: 10px 0 0 0px; position:relative;}
+input {width: 100%; height: 100%; border: 0; border-radius: 20px; padding: 0 20px; background-color: #edeeec;}
+input:focus {outline:none;}
+#search > button {position: absolute; top: 10px; right: 10px; border: 0; background-color: #edeeec;}
+#search > button > img {width: 20px;}
+
+/*아이콘*/
+#icon { width: 150px; height: 40px; float: right; margin: 10px 0 0 0; display: flex; flex-flow: row wrap; justify-content: space-between; align-items: center; }
+#icon > a > i {font-size: 30px; color: #000; }
+#icon > a {margin: 0; padding: 0;}
+ 
+/*하단*/
+footer { background-color:#f0f0ef; width:100%; height: 400px;}
+footer > #footerbox {width:1185px; height:400px;  margin:0 auto;}
+
+/*고객행복센터*/
+#cs { float:left; width: 240px; height: 340px; display: inline-block;}
+#cs > h3 {font-size: 20px; margin: 50px 0 20px 0;}
+#cs > h4 {font-size: 20px; margin: 0 0 20px 0; padding: 5px 55px; text-align: center;}
+#cs > button {font-size: 15px; width: 220px; margin: 0 0 20px 10px; background-color: white; border: 3px solid #edeeec; padding: 5px 50px; text-align: center; display:block;}
+
+/*고객센터 시간 안내*/
+#center { width: 352.5px; height: 340px; display:inline-block;}
+#center > .center1 { font-size: 12px; display: block; margin: 98px 0 0 0;}
+#center > .center2 { font-size: 12px;}
+#center > .center3 { font-size: 12px;display: block; margin: 10px 0 0 0;}
+#center > .center4 { font-size: 12px;}
+#center > p {font-size: 12px; color: gray;}
+#center > .mail { margin: 3px 0 0 0; }
+
+/*회사 소개 및 정보*/
+#info { float: right; width: 592.5px; height: 340px; }
+#info > ul {font-size: 15px; display: inline-block; margin: 0 0 20px 0;}
+#info > ul > li { float: left; margin: 50px 15px 0 0;font-weight:bold;}
+#info > ul > li > a { text-decoration: none; color:black;}
+#info > ul > li > a:hover {color: purple; }
+#info > p {color: gray; font-size: 12px;}
+#info > a > img {width:45px; height: 45px; margin:50px 10px 0 0;}
+
+/*All RIGHTS RESERVED*/
+#underinfo { width: 100%; height: 60px;}
+#underinfo > p {font-size: 11px; color: gray; text-align: center;}

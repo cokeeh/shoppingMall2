@@ -1,0 +1,104 @@
+﻿@charset "utf-8";
+
+/*슬라이더*/
+#slidewrap {width:1902px; height: 600px; margin: 0 auto; overflow: hidden; position: relative; }
+.slide {width: 6200px; height: 100%;}
+.slide > li {width: 1902px; height: 100%; float: left;}
+.slide > li > img {width: 100%; height: 100%;}
+#slidewrap > span {position: absolute; top:50%; transform: translateY(-50%); display: block; 
+	font-size: 50px; color:#fff;  cursor: pointer; }
+#slidewrap > .prev {left:200px;}
+#slidewrap > .next {right:200px;}
+
+/*전체섹션*/
+#contents {width:1185px; height:4700px; margin: 0 auto;}
+
+
+/*이 상품 어때요*/
+#product {width:1185px; height:550px; float: left; margin:40px 0;}
+#product > h1 {text-align: center; color:black; text-transform: uppercase; margin:40px; font-size: 30px;}
+#product > div:first-of-type {float: left;}
+#product > div:nth-of-type(2) {margin:0 0 0 20px;}
+#product > div:nth-of-type(3) {margin:0 0 0 15px;}
+#product > div:last-of-type {float: right;}
+
+
+/*상품-이미지*/
+.item {width:280px; height:420px; display:inline-block; background-color:white;}
+.item > a > img {width: 100%; height: 325px;}
+.item > a > img:hover {opacity: 0.8;}
+
+/*상품-정보*/
+.item > p > a {font-size: 17px; text-decoration: none; color: black; display: block; margin: 10px 0 0 0;}
+.item > span {font-size: 18px; display: block; font-weight: bold; margin: 10px 0 0 0;}
+.item > p > a > span {font-weight: bold;}
+.item2 > p > a > span {font-weight: bold;}
+
+#product > .item > span:before {content:"10%"; color:tomato; margin:0 10px 0 0; }
+#product > .item > span:before {content:"20%"; color:tomato; margin:0 10px 0 0; }
+#product > .item > span:before {content:"10%"; color:tomato; margin:0 10px 0 0; }
+#product > .item > span:before {content:"20%"; color:tomato; margin:0 10px 0 0; }
+#product > .item > h4 {color: darkgray;}
+
+/*배너*/
+#banner {width: 1185px; height: 200px; float: left; margin: 60px 0 0 0;}
+#banner > a > img {width: 100%; height: 100%;}	
+
+#banner2 {width: 1185px; height: 200px; float: left; margin: 70px 0 0 0;}
+#banner2 > a > img {width: 100%; height: 100%;}
+
+#banner3 {width: 1185px; height: 200px; float: left; margin: 40px 0 0 0;}
+#banner3 > a > img {width: 100%; height: 100%;}
+
+
+/*놓치면 후회할 가격*/
+#recomand {width:1185px; height:550px; float: left; margin:60px 0 0 0;}
+#recomand > h1 {text-align: center; color:black; text-transform: uppercase; margin:40px; font-size: 30px;}
+#recomand > div:first-of-type {float: left;}
+#recomand > div:nth-of-type(2) {margin:0 0 0 20px;}
+#recomand > div:nth-of-type(3) {margin:0 0 0 15px;}
+#recomand > div:last-of-type {float: right;}
+
+
+/*인기 신상품 추천*/
+#best {width:1185px; height:550px; float: left; margin:40px 0;}
+#best > h1 {text-align: center; color:black; text-transform: uppercase; margin:40px; font-size: 30px;}
+#best > div:first-of-type {float: left;}
+#best > div:nth-of-type(2) {margin:0 0 0 20px;}
+#best > div:nth-of-type(3) {margin:0 0 0 15px;}
+#best > div:last-of-type {float: right;}
+
+/*kurlyonly*/
+#kurlyonly {width:1185px; height:550px; float: left; margin:10px 0;}
+#kurlyonly > h1 {text-align: center; color:black; text-transform: uppercase; margin:40px; font-size: 30px;}
+#kurlyonly > div:first-of-type {float: left;}
+#kurlyonly > div:nth-of-type(2) {margin:0 0 0 20px;}
+#kurlyonly > div:nth-of-type(3) {margin:0 0 0 15px;}
+#kurlyonly > div:last-of-type {float: right;}
+
+/*kurlyonly-상품 정보*/
+#kurlyonly > .item > span:after {content:"kurlyonly"; color:purple; margin:0 10px 0 10px; }
+
+/*MD의 추천 제품 카테고리*/
+#md {width:1185px; height:250px; float: left; margin:60px 0 0 0; text-align: center;}
+#md > h1 {text-align: center; color:black; text-transform: uppercase; margin:40px 0 20px 0; font-size: 30px;}
+#md > ul {font-size: 16px;}
+#md > ul > li {display:inline-block; margin:15px 0 20px 20px; font-weight:bold;}
+#md > ul > li > a { background-color: #e8e8e7; text-decoration: none; color:black; border-radius: 15px; padding: 10px; }
+#md > ul > li > a:hover {color: purple; }
+
+/*MD의 추천 제품*/
+#mdselection {width:1185px; height:900px; float: left; margin:50px 0;  display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;}
+
+/*MD의 추천 - 상품 이미지*/
+.item2 {width:280px; height:420px; display:inline-block; }
+.item2 > a > img {width: 100%; height: 325px; }
+.item2 > a > img:hover {opacity: 0.8;}
+
+/*MD의 추천 - 상품 정보*/
+.item2 > p > a {font-size: 17px; text-decoration: none; color: black; display: block; margin: 10px 0 0 0;}
+.item2 > span {font-size: 18px; display: block; font-weight: bold; margin: 10px 0 0 0;}
+
+
+/*선물 전체보기 버튼*/
+#mdselection > button { font-weight: bold; font-size: 18px; background-color: white; border:  3px solid #edeeec; border-radius: 10px; padding: 20px 100px; margin:20px 0 0 420px;}
